@@ -3,7 +3,7 @@
 ## Companies
 - [x] Create a company
 - [x] Get a company
-- [ ] Update a company
+- [x] Update a company
 - [ ] Delete a company
 - [ ] List companies
 - [ ] Add tag to company
