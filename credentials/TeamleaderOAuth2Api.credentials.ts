@@ -3,13 +3,12 @@ import {
 	ICredentialTestRequest,
 	ICredentialType,
 	INodeProperties,
-	/*ICredentialDataDecryptedObject,*/
 } from 'n8n-workflow';
 
-export class TeamleaderApi implements ICredentialType {
-	name = 'teamleaderApi';
-	displayName = 'Teamleader API';
-	documentationUrl = 'https://developer.teamleader.eu/';
+export class TeamleaderOAuth2Api implements ICredentialType {
+	name = 'teamleaderOAuth2Api';
+	displayName = 'Teamleader OAuth2 API';
+	documentationUrl = 'https://developer.teamleader.eu/docs/authentication';
 	extends = ['oAuth2Api'];
 	properties: INodeProperties[] = [
 		{
